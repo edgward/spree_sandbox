@@ -12,3 +12,6 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::LegacyUser"
+
+Spree::PermittedAttributes.product_attributes << :dietary_info
+Spree::PermittedAttributes.variant_attributes << :dietary_info
