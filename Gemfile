@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 gem 'spree', github: 'spree/spree', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 
+gem 'spree_ajax_add_to_cart', path: '../spree_ajax_add_to_cart'
+
+gem 'spree_address_book', github: 'edgward/spree_address_book', branch: '2-3-stable', require: 'spree_address_book'

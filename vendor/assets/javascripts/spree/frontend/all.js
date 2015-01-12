@@ -9,3 +9,5 @@
 //= require spree/frontend
 
 //= require_tree .
+//= require spree/frontend/
+//= require spree/frontend/spree_address_book

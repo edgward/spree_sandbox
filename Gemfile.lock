@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/edgward/spree_address_book.git
+  revision: abe8536865f961b874173b13bc789948579204f8
+  branch: 2-3-stable
+  specs:
+    spree_address_book (2.2.2)
+      spree_core (~> 2.3)
+      spree_frontend (~> 2.3)
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: 0a59d45f1443854d364df02a9e8a7238e1b142a2
   branch: 2-4-stable
@@ -66,6 +75,12 @@ GIT
       json
       multi_json
       spree_core (~> 2.4.0.beta)
+
+PATH
+  remote: ../spree_ajax_add_to_cart
+  specs:
+    spree_ajax_add_to_cart (2.4.0.rc3)
+      spree_core (~> 2.4.0.rc3)
 
 GEM
   remote: https://rubygems.org/
@@ -303,6 +318,8 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spree!
+  spree_address_book!
+  spree_ajax_add_to_cart!
   spree_auth_devise!
   spring
   sqlite3
