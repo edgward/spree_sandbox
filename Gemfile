@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -38,6 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'spree', github: 'spree/spree', branch: '2-4-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
+gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
 
